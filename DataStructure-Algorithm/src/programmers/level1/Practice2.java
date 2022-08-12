@@ -10,7 +10,7 @@ package programmers.level1;
  * 제한 조건
  * - x는 1 이상, 10000 이하인 정수입니다.
  */
-class Solution2 {
+class Practice2 {
     public boolean solution(int x) {
     	String[] n = String.valueOf(x).split("");
     	int sum = 0;

@@ -20,7 +20,7 @@ package programmers.level1;
  * 제한 사항
  * - 입력된 수, num은 1 이상 8,000,000 미만인 정수입니다.
  */
-class Solution3 {
+class Practice3 {
     public int solution(long num) {
     	
     	int count;

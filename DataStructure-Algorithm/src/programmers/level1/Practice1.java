@@ -11,7 +11,7 @@ package programmers.level1;
  * - x는 -10000000 이상, 10000000 이하인 정수입니다.
  * - n은 1000 이하인 자연수입니다.
  */
-class Solution1 {
+class Practice1 {
     public long[] solution(int x, int n) {
     	
         long[] answer = new long[n];
