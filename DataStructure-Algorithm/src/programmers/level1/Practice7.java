@@ -23,19 +23,19 @@ import java.util.*;
  *   commands의 각 원소는 길이가 3입니다.
  */
 public class Practice7 {
-	    public int[] solution(int[] array, int[][] command) {
-	        
-	        int[] answer = new int[command.length];
+    public int[] solution(int[] array, int[][] command) {
+        
+        int[] answer = new int[command.length];
 
-	        for (int i = 0; i < command.length; i++) {
-	            int idx = 0;
-	            int[] arr = new int[command[i][1] - command[i][0] + 1];
+        for (int i = 0; i < command.length; i++) {
+            int idx = 0;
+            int[] arr = new int[command[i][1] - command[i][0] + 1];
 
-	            for (int j = command[i][0] - 1; j < command[i][1]; j++) arr[idx++] = array[j];
-	            Arrays.sort(arr);
+            for (int j = command[i][0] - 1; j < command[i][1]; j++) arr[idx++] = array[j];
+            Arrays.sort(arr);
 
-	            answer[i] = arr[command[i][2] - 1];
-	        }
-	        return answer;
-	    }
+            answer[i] = arr[command[i][2] - 1];
+        }
+        return answer;
+    }
 }
